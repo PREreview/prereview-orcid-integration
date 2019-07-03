@@ -1,0 +1,22 @@
+{
+  "name": "prereview-orcid-integration",
+  "version": "1.0.0",
+  "description": "PREreview's server and client components for ORCID integration (login, metadata services)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PREreview/prereview-orcid-integration.git"
+  },
+  "keywords": ["orcid", "prereview"],
+  "author": "PREreview",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PREreview/prereview-orcid-integration/issues"
+  },
+  "homepage": "https://github.com/PREreview/prereview-orcid-integration#readme",
+  "dependencies": {
+    "got": "^9.6.0",
+    "passport": "^0.4.0",
+    "passport-orcid": "0.0.3"
+  }
+}
